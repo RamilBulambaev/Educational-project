@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+/* Header */
+/* Header-top */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-top-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-top-logo {
+  margin-right: 35px;
+}
+
+/* Header-back */
+.header-back {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  margin: 27px 0;
+}
+
+.nav-item:first-child {
+  margin-left: 45px;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.header-back-right {
+  display: flex;
+}
+
+.header-btn {
+  margin-right: 50px;
+}
+
+/* Offers */
+.offers-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.offers-card {
+  min-width: 573px;
+  margin-bottom: 24px;
+  padding-top: 40px;
+  padding-left: 45px;
+  padding-bottom: 40px;
+  padding-right: 108px;
+}
+
+/* About */
+.about-container {
+  max-width: 888px;
+}
+
+/* Service */
+.service-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.service-item {
+  max-width: 573px;
+  margin-bottom: 24px;
+}
+
+.service-item:not(:nth-child(2n)) {
+  margin-right: 24px;
+}
+
+/* advantage */
+.advantage-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.advantage-item {
+  max-width: 276px;
+  margin-bottom: 24px;
+}
+
+.advantage-item:not(:nth-child(4n)) {
+  margin-right: 22px;
+}
+
+/* Placement */
+.placement-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.placement-item {
+  min-width: 374px;
+  margin-bottom: 24px;
+}
+
+.placement-item:not(:nth-child(3n)) {
+  margin-right: 24px;
+}
+
+/* Contacts */
+.contacts-container {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.contacts-list {
+  margin: 45px;
+}
+
+.contacts-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts-route-link {
+  margin-left: 45px;
+}
+
+/* footer */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 45px;
+}
+
+.copiright-text {
+  margin-bottom: 40px;
+}
+
+.footer-item {
+  margin-bottom: 15px;
+}
