@@ -379,9 +379,52 @@
           </li>
         </ul>
       </section>
-      <!-- <section class="want-thour">
-        <div></div>
-      </section> -->
+      <section class="want-thour">
+        <div class="container-thour">
+          <h2 class="main-title main-title-margin">Хочу тур</h2>
+          <form class="thour-form" action="https://jsonplaceholder.typicode.com/posts" autocomplete method="post">
+          <div class="thour-form-item-left">
+            <div class="thour-form-item-box">
+              <label class="thour-form-lable" for="departure-city">Город вылета</label>
+              <select required class="thour-form-item" name="departure-city" id="departure-city">
+                <option >Москва</option>
+                <option selected>Санкт-Петербург</option>
+                <option >Анапа</option>
+                <option >Омск</option>
+                <option >Сочи</option>
+                <option >Воронеж</option>
+              </select>
+            </div>
+            <div class="thour-form-item-box">
+              <label class="thour-form-lable" for="country-of-arrival">Страна</label>
+              <select required class="thour-form-item" name="country-of-arrival" id="country-of-arrival">
+                <option selected>Австралия</option>
+                <option>Аргентина</option>
+                <option>Америка</option>
+                <option>Бразилия</option>
+                <option>Париж</option>
+                <option>Лондон</option>
+              </select>
+            </div>
+            <div class="thour-form-item-box">
+              <label class="thour-form-lable" for="arrival-date">Дата прибытия</label>
+              <input required class="thour-form-item" type="date" name="arrival-date" id="arrival-date" value="2021-10-18">
+            </div>
+            <div class="thour-form-item-box">
+              <label class="thour-form-lable" for="night">Ночей</label>
+              <input required class="thour-form-item item-shrink" type="number" name="night" id="night" value="6">
+            </div>
+            <div class="thour-form-item-box">
+              <label class="thour-form-lable" for="tourists">Туристы</label>
+              <input required class="thour-form-item item-shrink" type="number" name="tourists" id="tourists" value="2">
+            </div>
+          </div>
+          <div class="thour-form-item-right">
+            <button class="thour-form-btn orange-link" type="submit">Найти</button>
+          </div>
+          </form>
+        </div>
+      </section>
       <section class="contacts">
         <h2 class="main-title main-title-margin">Контакты</h2>
         <div class="contacts-container">
