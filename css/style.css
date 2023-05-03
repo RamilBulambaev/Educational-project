@@ -834,7 +834,7 @@ html {
   z-index: 5;
   width: 254.75px;
   background: url('../img/footer-logo.svg') center center no-repeat transparent;
-  box-sizing: cover;
+  box-sizing: border-box;
 }
 
 .social-link-icon {
